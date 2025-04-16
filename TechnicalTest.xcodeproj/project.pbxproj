@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DC7DC6C82DAFA2C300693E6B /* App in Frameworks */ = {isa = PBXBuildFile; productRef = DC7DC6C72DAFA2C300693E6B /* App */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		DC7DC65E2DAF9DF300693E6B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC7DC6C82DAFA2C300693E6B /* App in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 				DC7DC6512DAF9DF200693E6B /* TechnicalTest */,
 				DC7DC6602DAF9DF300693E6B /* TechnicalTestTests */,
 				DC7DC66A2DAF9DF300693E6B /* TechnicalTestUITests */,
+				DC7DC6C62DAFA2C300693E6B /* Frameworks */,
 				DC7DC6502DAF9DF200693E6B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +96,13 @@
 				DC7DC6672DAF9DF300693E6B /* TechnicalTestUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		DC7DC6C62DAFA2C300693E6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +125,7 @@
 			);
 			name = TechnicalTest;
 			packageProductDependencies = (
+				DC7DC6C72DAFA2C300693E6B /* App */,
 			);
 			productName = TechnicalTest;
 			productReference = DC7DC64F2DAF9DF200693E6B /* TechnicalTest.app */;
@@ -593,6 +607,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DC7DC6C72DAFA2C300693E6B /* App */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = App;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DC7DC6472DAF9DF200693E6B /* Project object */;
 }
